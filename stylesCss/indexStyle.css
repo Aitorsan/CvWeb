@@ -1,0 +1,93 @@
+*{
+	padding:0px;
+	margin:0px;
+   
+}
+
+body{
+	margin:4px;
+}
+header{
+    height:10em;
+	background-color:rgb(122,120,45);
+	display: flex;
+	flex-wrap:wrap;
+	align-items: flex-end;
+}
+#aitor{
+	flex:2;
+	text-align: center;
+	//border:solid brown;
+	height:50%;
+
+
+}
+
+
+
+nav{
+	
+
+	display:flex;
+	flex-wrap:wrap;
+    align-items:flex-end;
+    flex-direction: row;
+   // border: solid yellow;
+}
+
+
+
+.ulPrincipal{
+
+	display:flex;
+	flex-wrap:wrap;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-direction: row;
+	font-size:1.5em;
+}
+
+li{
+	list-style: none;
+
+}
+a{
+	width:100%;
+	display:block;
+	text-decoration:none;
+}
+.subUl{
+
+	display:none;
+	background-color:rgb(122,120,45);
+	//border:solid green;
+}
+li.outerList {
+	display:inline-flex;
+	//border:solid ;
+
+}
+li.outerList > a{
+	text-decoration: none;
+	padding:1em;
+	//border:solid red;
+}
+
+a:hover{
+	background-color: black;
+}
+
+.ulPrincipal li:hover .subUl {
+    
+	position:absolute;
+	margin-top:75px;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+@keyframes slowDown{
+
+       
+
+}
